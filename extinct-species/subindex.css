@@ -6,6 +6,15 @@
 
 }
 
+.animal-button {
+  display: flexbox;
+  margin: 10px;
+  padding: 55px 0px;
+  width: 400px;
+  text-align: center;
+  font-size: 15pt;
+}
+
 .footer {
   font-size: 12px;
   text-align: center;
