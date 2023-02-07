@@ -30,6 +30,10 @@ img{
     
 }
 
+img:hover{
+    opacity:0.50; 
+}
+
 
 
 body{
