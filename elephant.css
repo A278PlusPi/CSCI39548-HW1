@@ -1,0 +1,42 @@
+
+.elephantpics{
+    display: flex; 
+    flex-direction: column;
+    justify-content: flex-start;
+    
+}
+
+
+img{
+    border-radius: 10%;
+    width: 400px;
+    height: 300px;
+    margin: 10px;
+    
+}
+
+
+
+body{
+    
+    background-image: url(../imgpages/elephantpage/backgroundelephant.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+     
+}
+
+
+
+p{
+    font-size: 2em;
+    border: 2px solid black; 
+    width: 400px; 
+    text-align: center;
+    margin-top: 10px;  
+    position:absolute; right:80px; top:20px;
+    
+    
+}
+
+
