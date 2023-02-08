@@ -1,0 +1,39 @@
+.background-extinct {
+  position: absolute;
+  opacity: 0.12;
+}
+
+* {
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+
+.main-container {
+ font-size: 20px;
+ overflow: hidden;
+ position: relative;
+}
+
+.body {
+  font-size: 20px;
+}
+
+.animal-button {
+  display: flexbox;
+  margin: 10px;
+  padding: 55px 0px;
+  width: 400px;
+  text-align: center;
+  font-size: 18pt;
+  border: 2px solid #6f6;
+  background-color: #efe;
+}
+
+.animal-button:hover {
+  background-color: #9f9;
+  cursor: pointer;
+}
+
+.footer {
+  font-size: 12px;
+  text-align: center;
+}
