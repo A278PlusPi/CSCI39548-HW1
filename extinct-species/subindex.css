@@ -1,9 +1,16 @@
+.background-extinct {
+  position: absolute;
+  opacity: 0.12;
+}
+
 * {
   font-family: Roboto, Helvetica, Arial, sans-serif;
 }
 
 .main-container {
  font-size: 20px;
+ overflow: hidden;
+ position: relative;
 }
 
 .body {
