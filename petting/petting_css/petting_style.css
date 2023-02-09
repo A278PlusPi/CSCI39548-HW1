@@ -1,0 +1,21 @@
+body {
+  margin-left: 30px;
+  margin-right: 30px;
+  background-color: rgb(184, 245, 245);
+}
+.sub-page {
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: rgb(226, 170, 196);
+}
+.animals {
+  margin-left: 40px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+}
+.petting_img img {
+  width: 400px;
+  height: 400px;
+}
