@@ -1,27 +1,60 @@
 body {
-    font-family: 'MV Boli';
-    color:aliceblue;
     background-image: url(https://giffiles.alphacoders.com/195/19518.gif);
     background-repeat: no-repeat;
-    background-size: 100%;
-    text-align: center;
+    background-size: cover;
+    background-attachment: fixed;
   }
 
 h1{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 3em;
+  color: aliceblue;
+
+  position: absolute;
+  left: 200px;
+  top: 150px;
+
+
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: blue;
 }
 
 p{
+  font-family: 'MV Boli';
   font-size: medium;
-  background-color:rgb(21, 108, 232);
-  outline-style:groove;
-  outline-color: aliceblue;
-  border-radius: 15px;
+  color: aliceblue;
+
+  width: 650px;
+
+  position: absolute;
+  top: 250px;
+  left: 20px;
+
 }
 
-img{
-  border-radius: 50%;
-  outline-style: groove;
-  outline-color: aliceblue;
+.img1{
+  
+  position: absolute;
+  right: 80px;
+  top: 100px;
+}
+
+nav ul li{
+  display:inline-table;
+  line-height: 50px;
+  margin: 0 3px;
+  border-image-repeat: 3px;
+  padding: 0px;
+}
+nav ul li a{
+  color: aliceblue;
+  font-size: 17px;
+  text-transform: uppercase;
+}
+
+li:hover{
+  background: blueviolet;
+  width: 1px;
+  height: 1px;
+  transition: 0.5s;
 }
