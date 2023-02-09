@@ -6,4 +6,22 @@ body {
     background-size: 100%;
     text-align: center;
   }
-  
+
+h1{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 3em;
+}
+
+p{
+  font-size: medium;
+  background-color:rgb(21, 108, 232);
+  outline-style:groove;
+  outline-color: aliceblue;
+  border-radius: 15px;
+}
+
+img{
+  border-radius: 50%;
+  outline-style: groove;
+  outline-color: aliceblue;
+}
