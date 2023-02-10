@@ -3,7 +3,67 @@ body {
     color:red;
     background-image: url(https://media.tenor.com/D5NQ5H4-P08AAAAC/sea-of-thieves-sot.gif);
     background-repeat: no-repeat;
-    background-size: 100%;
-    text-align: center;
+    background-size: cover;
+    background-attachment: fixed;
+
   }
-  
+
+h1{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 6em;
+  color: red;
+
+  position: absolute;
+  right: 30px;
+  bottom: 10px;
+
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: black;
+}
+
+p{
+  font-family: 'Bahnschrift SemiBold';
+  font-size:larger;
+  color: red ;
+
+  width: 715px;
+
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+
+  background-color: black;
+
+  border-style: groove;
+  border-color: red;
+  padding: 5px;
+}
+
+nav ul li{
+    display:inline-table;
+    line-height: 50px;
+    margin: 0 3px;
+    border-image-repeat: 3px;
+    padding: 0px;
+  }
+
+nav ul li a{
+    color: red ;
+    font-size: 17px;
+    text-transform: uppercase;
+  }
+
+li:hover{
+    background: black;
+    width: 1px;
+    height: 1px;
+    transition: 0.5s;
+}
+
+img{
+  border-radius: 50%;
+  position: relative;
+  position: absolute;
+  right: 30px;
+
+}
