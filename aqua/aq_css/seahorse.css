@@ -1,9 +1,70 @@
 body {
-    font-family: 'MV Boli';
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color:black;
     background-image: url(https://thumbs.gfycat.com/BarrenVillainousKoala-size_restricted.gif);
     background-repeat: no-repeat;
     background-size: 100%;
-    text-align: center;
+
   }
+
+  h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 9em;
+    color: aliceblue;
   
+    position: absolute;
+    right: 150px;
+    top: 85px;
+  
+  
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
+  }
+
+p{
+  font-family: 'MV Boli';
+  font-size: large;
+  color: aliceblue;
+
+  width: 650px;
+
+  position: absolute;
+  top: 350px;
+  right: 200px;
+
+  border-style: groove;
+  border-radius: 10%;
+  background-color: rgb(3, 76, 131);
+
+  text-align: center;
+  width: 500px;
+}
+img{
+  border-radius: 50%;
+  height: 550px;
+  width: 550px;
+  border-style: groove;
+
+  position: absolute;
+  left: 200px;
+}
+
+nav ul li{
+  display:inline-table;
+  line-height: 50px;
+  margin: 0 3px;
+  border-image-repeat: 3px;
+  padding: 0px;
+}
+nav ul li a{
+  color: black;
+  font-size: 17px;
+  text-transform: uppercase;
+}
+
+li:hover{
+  background: lightblue;
+  width: 1px;
+  height: 1px;
+  transition: 0.5s;
+}
