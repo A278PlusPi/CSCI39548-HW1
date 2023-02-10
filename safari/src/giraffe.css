@@ -1,0 +1,65 @@
+h1{
+    font-size: 3em;
+    border-bottom: 2px solid grey; 
+    width: 400px; 
+    text-align: center;
+    border-right: 2px solid grey; ;
+    box-shadow: 4px 4px 5px #888888; 
+    background-color: orange; 
+    
+
+}
+
+
+
+.giraffepics{
+    display: flex; 
+    flex-direction: column;
+    justify-content: flex-start;
+    
+}
+
+
+img{
+    border-radius: 10%;
+    width: 400px;
+    height: 300px;
+    margin: 10px;
+    
+}
+
+img:hover{
+    opacity: 0.50; 
+}
+
+
+
+body{
+    
+    background-image: url(../imgpages/giraffepage/backgroundgiraffe.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+     
+}
+
+
+
+p{
+    font-size: 1.5em;
+    background-color: orange;
+    border: 2px solid black; 
+    width: 400px; 
+    text-align: center;
+    margin-top: 10px;  
+    position:absolute; right:80px; top:80px;
+    
+    
+}
+
+.backlinks{
+    font-size: x-large;
+    background-color: orange;
+}
+
+
