@@ -1,6 +1,9 @@
 .background-extinct {
   position: absolute;
   opacity: 0.12;
+  left: 0;
+  top: 0;
+  width: 100%;
 }
 
 * {
@@ -18,14 +21,20 @@
 }
 
 .animal-button {
-  display: flexbox;
   margin: 10px;
   padding: 55px 0px;
-  width: 400px;
+  flex: 1;
+  min-width: 300px;
   text-align: center;
   font-size: 18pt;
   border: 2px solid #6f6;
   background-color: #efe;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
 .animal-button:hover {
