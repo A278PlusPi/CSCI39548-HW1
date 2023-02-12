@@ -8,3 +8,27 @@ body {
   font-size: 12px;
   text-align: center;
 }
+
+.animal-button {
+  margin: 10px;
+  padding: 45px 0px;
+  flex: 1;
+  min-width: 300px;
+  text-align: center;
+  font-size: 18pt;
+  border: 2px solid #f66;
+  background-color: #fee;
+  text-decoration: none;
+  color: #000;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.animal-button:hover {
+  background-color: #f99;
+  cursor: pointer;
+}
