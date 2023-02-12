@@ -8,13 +8,14 @@
 }
 
 .navigation-button {
-  display: flexbox;
   margin: 10px;
   padding: 12px 12px;
   text-align: center;
   font-size: 12pt;
   border: 2px solid #6f6;
   background-color: #efe;
+  text-decoration: none;
+  color: #000;
 }
 
 .navigation-button:hover {
@@ -26,4 +27,5 @@
   background-color: #eee;
   border: 2px solid #ccc;
   cursor: not-allowed;
+  color: #666;
 }
